@@ -46,6 +46,10 @@ main{
     height: 75%;
 }
 
+#mainSection{
+    padding: 0 15%;
+}
+
 /*footer*/
 footer{
     border-top: 1px solid lightblue;
@@ -54,6 +58,8 @@ footer{
 #footer{
     display: flex;
     flex-direction: row;
+    padding: 0 10%;
+    padding-top: 10px;
 }
 
 #footerNav{
