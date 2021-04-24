@@ -3,3 +3,59 @@
     margin: 0;
     font-family: 'Noto Sans JP', sans-serif;
 }
+
+html{
+    height: 100vh;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*100% width*/
+header, main, footer{
+    width: 100%;
+}
+
+/*header stylings*/
+#header{
+    height: 56px;
+    padding: 0 16px;
+    box-shadow: 0 4px 4px lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#headerNav{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+/*Main section*/
+main{
+    height: 75%;
+}
+
+/*footer*/
+footer{
+    border-top: 1px solid lightblue;
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+}
+
+#footerNav{
+    list-style-type: none;
+}
