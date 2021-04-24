@@ -35,15 +35,28 @@ header, main, footer{
     align-items: center;
 }
 
+#header > nav {
+    width: 40%;
+}
+
 #headerNav{
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
     list-style-type: none;
+}
+
+#headerNav > li {
+    margin-left: 10px;
 }
 
 /*Main section*/
 main{
     height: 75%;
+    background-image: url("/images/class.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #mainSection{
