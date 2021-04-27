@@ -25,10 +25,16 @@ header, main, footer{
 }
 
 /*header stylings*/
+header{
+    box-shadow: 0 4px 4px lightblue;
+    background-color: #fff;
+    position: fixed;
+    z-index: 3;
+}
+
 #header{
     height: 3.5em;
     padding: 0 16px;
-    box-shadow: 0 4px 4px lightblue;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -53,6 +59,7 @@ header, main, footer{
 
 /*Main section*/
 main{
+    padding-top: 3.5em;
     min-height: 75%;
     overflow-y: auto;
 }
@@ -62,7 +69,7 @@ main{
 }
 
 #mainView{
-    height: 24em;
+    height: 30em;
     display: flex;
     align-items: center;
 }
@@ -70,13 +77,14 @@ main{
 .center{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .view{
     width: 100%;
     height: 65%;
-    display: flex;
-    flex-direction: row;
+    text-align: center;
 }
 
 #introText{
@@ -88,6 +96,17 @@ main{
     width: 100%;
     height: 100%px;
     border-radius: 5%;
+}
+
+.cards{
+    justify-content: space-between;
+}
+
+.card{
+    width: 30%;
+    min-height: 16.25em;
+    border:1px solid black;
+    border-radius: 1em;
 }
 /*footer*/
 footer{
