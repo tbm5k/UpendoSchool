@@ -3,6 +3,7 @@
   <head>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="icons/css/all.css">
     <link rel="stylesheet" href="style/style.css">
     <title>Upendo School</title>
   </head>
@@ -19,8 +20,8 @@
       </div>
     </header>
     <main>
-      <div id="mainSection">
-        <section id="mainView">
+      <section id="mainView">
+        <div class="wrapper">
           <div class="center">
             <div class="content">
               <p id="introText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia accusantium dignissimos 
@@ -31,14 +32,16 @@
               <img id="firstImg" src="images/play.jpeg">
             </div>
           </div>
-        </section>
-        <section class="view center cards">
+        </div>
+      </section>
+      <section class="view center" id="view1">
+        <div class="wrapper cards">
           <div class="card">
             <h3>Lorem</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
               Doloremque ipsum excepturi ipsam nostrum doloribus numquam deserunt voluptas magni reiciendis laborum, 
-              hic fugiat natus deleniti nulla sequi. Deleniti error voluptatibus excepturi.
+              hic fugiat natus deleniti nulla sequi.
             </p>
           </div>
           <div class="card">
@@ -46,7 +49,7 @@
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
               Doloremque ipsum excepturi ipsam nostrum doloribus numquam deserunt voluptas magni reiciendis laborum, 
-              hic fugiat natus deleniti nulla sequi. Deleniti error voluptatibus excepturi.
+              hic fugiat natus deleniti nulla sequi.
             </p>
           </div>
           <div class="card">
@@ -54,23 +57,33 @@
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
               Doloremque ipsum excepturi ipsam nostrum doloribus numquam deserunt voluptas magni reiciendis laborum, 
-              hic fugiat natus deleniti nulla sequi. Deleniti error voluptatibus excepturi.
+              hic fugiat natus deleniti nulla sequi.
             </p>
-          </div>
-        </section>
-      </div>
+          </div>  
+        </div>
+      </section>
+      <section class="view center" id="view2">
+        <div class="wrapper">
+          <h4>Where are we situated</h4>
+          <p>We are located in Kitale</p>
+        </div>
+      </section>      
     </main>
     <footer>
       <div id="footer">
-        <section id="location">
-          <h4>Location</h4>
-          <p>Kitale</p>
-        </section>
         <section id="contacts">
           <h4>Contacts</h4>
           <ul id="footerNav">
-            <li><a href="+254711781651">Call</a></li>
-            <li><a href="mailto:tedburg5@gmail.com">Email</a></li>
+            <li>
+              <a href="+254711781651">
+                <i class="fas fa-phone-alt"></i>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:tedburg5@gmail.com">
+                <i class="fas fa-envelope"></i>          
+              </a>
+            </li>
           </ul>
         </section>
       </div>
