@@ -91,7 +91,7 @@ main{
 
 #introText{
     font-weight: bold;
-    font-size:4.5em;
+    font-size:4em;
 }
 
 .content{
@@ -106,16 +106,9 @@ main{
     box-shadow: 0 0 1em -0.5em rgba(0, 0, 0);
 }
 
-#view1{
-    background-color: lightblue;
-}
-
-#view2{
-    background-color: #fff;
-}
-
 #view2 > .wrapper{
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .cards{
@@ -132,6 +125,12 @@ main{
     box-shadow: 0 0 1em -0.5em rgba(0, 0, 0);
     margin: 0 2em;
     position: relative;
+}
+
+.card > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 1em;
 }
 
 .gradient{
@@ -155,12 +154,15 @@ footer{
     background-color: #0d1117;
     color: #fff;
     height: 7em;
+    font-size: 0.7em;
+    font-weight: lighter;
 }
 
 #footer{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 0 10%;
     padding-top: 10px;
 }
