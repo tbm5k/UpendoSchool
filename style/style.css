@@ -89,6 +89,10 @@ main{
     text-align: center;
 }
 
+#view2{
+    flex-direction: column;
+}
+
 #introText{
     font-weight: bold;
     font-size:4em;
@@ -107,8 +111,7 @@ main{
 }
 
 #view2 > .wrapper{
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-direction: row;
 }
 
 .cards{
@@ -147,6 +150,17 @@ main{
     justify-content: center;
     position: absolute;
     bottom: 0;
+}
+
+.information{
+    width: 15em;
+    text-align: left;
+    margin: 0 5em;
+    margin-top: 5em;
+}
+
+.information > .heading{
+    padding-bottom: 1em;
 }
 
 /*footer*/
