@@ -55,7 +55,7 @@ header{
 }
 
 #headerNav > li {
-    margin-left: 10px;
+    margin-left: 4em;
 }
 
 /*Main section*/
@@ -153,15 +153,17 @@ main{
 footer{
     background-color: #0d1117;
     color: #fff;
-    height: 7em;
+    height: 18.75em;
     font-size: 0.7em;
     font-weight: lighter;
 }
 
 #footer{
+    height: 100%;
+    background-color: #0d1117;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 0 10%;
     padding-top: 10px;
@@ -179,8 +181,17 @@ footer{
     justify-content: space-evenly;
 }
 
+#contacts > h3{
+    margin-bottom: 1em;
+}
+
 #footerNav > li{
-    margin:0 5px;
+    margin-right: 1.2em;
+}
+
+#copyright{
+    border-top:1px solid lightblue;
+    padding-top: 1em;
 }
 
 /*Icons*/
