@@ -229,4 +229,22 @@ i{
     #view2 > .wrapper {
         flex-direction: column;
     }
+
+    /*main view*/
+    .mainView{
+        flex-direction: column;
+    }
+
+    /*Administration*/
+    .cards{
+        flex-direction: column;
+    }
+
+    .cards{
+        margin: 10% 0;
+    }
+
+    .card{
+        margin: 10% 0;
+    }
 }
