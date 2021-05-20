@@ -225,9 +225,17 @@ i{
         padding-bottom: 1em;
     }
 
+    #footer{
+        text-align: center;
+    }
     /*about section*/
     #view2 > .wrapper {
         flex-direction: column;
+    }
+
+    .information{
+        text-align: center;
+        margin: 10% 0;
     }
 
     /*main view*/
