@@ -27,7 +27,7 @@ header, main, footer{
 
 /*header stylings*/
 header{
-    box-shadow: 0 4px 4px lightblue;
+    border-bottom: 1px solid lightblue;
     background-color: #fff;
     position: fixed;
     z-index: 3;
