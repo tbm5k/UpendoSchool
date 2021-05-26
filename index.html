@@ -26,6 +26,11 @@
       </div>
     </header>
     <main>
+      <ul id="burgerNav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+        <li><a href="#view2">About</a></li>
+      </ul>
       <section id="mainView">
         <div class="wrapper">
           <div class="center mainView">
@@ -118,7 +123,12 @@
     </footer>
     <script>
       function burgerMenu(){
-        console.log("Button pressed")
+        let el = document.getElementById("burgerNav");
+        if(el.style.display == "none"){
+          el.style.display = "block";
+        }else{
+          el.style.display = "none";
+        }
       }
     </script>
   </body>

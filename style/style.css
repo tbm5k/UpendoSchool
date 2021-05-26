@@ -63,6 +63,16 @@ header{
     text-align: end;
 }
 
+#burgerNav{
+    display: none;
+    color: #fff;
+    background-color: #393c41;
+}
+
+#burgerNav > li{
+    padding-bottom: .5em;
+}
+
 /*Main section*/
 main{
     padding-top: 3.5em;
