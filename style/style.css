@@ -66,7 +66,12 @@ header{
 #burgerNav{
     display: none;
     color: #fff;
-    background-color: #393c41;
+    background-color: lightblue;
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+    padding-left: 5%;
+    list-style: none;
 }
 
 #burgerNav > li{
