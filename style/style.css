@@ -58,6 +58,11 @@ header{
     margin-left: 10%;
 }
 
+#menuIcon{
+    display: none;
+    text-align: end;
+}
+
 /*Main section*/
 main{
     padding-top: 3.5em;
@@ -254,5 +259,14 @@ i{
 
     .card{
         margin: 10% 0;
+    }
+
+    /*header*/
+    #headerNav{
+        display: none;
+    }
+
+    #menuIcon{
+        display: block;
     }
 }
